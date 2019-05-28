@@ -25,7 +25,7 @@
 
   * Be very wary of signing up for public Wi-Fi access if you're getting asked for a bunch of personal details, like your email address or your phone number. If you absolutely have to connect to networks like this, stick to places you trust (see above) and consider using an alternative email address that isn't your primary one.
 
-  * Cut off the features that enable frictionless file sharing on your devices. On a PC, that means going to **Network and Sharing Center**, then **Change advanced sharing settings**, then **Turn off file and printer sharing**. For Macs, go to **System Preferences**, then **Sharing**, and unselect everything. Then head to *Finder*, click on *AirDrop*, and select **Allow me to be discovered by: No One**. For iOS, just find AirDrop in the Control Center and turn it off.
+  * Cut off the features that enable frictionless file sharing on your devices. On a PC, that means going to *Network and Sharing Center*, then *Change advanced sharing settings*, then *Turn off file and printer sharing*. For Macs, go to System Preferences, then *Sharing*, and unselect everything. Then head to *Finder*, click on *AirDrop*, and select *Allow me to be discovered by: No One*. For iOS, just find AirDrop in the Control Center and turn it off.
 
   * Read up on the attached terms and conditions before you connect yourself to a public Wi-Fi connection.
 
@@ -56,7 +56,7 @@
 
   * It is simple to make configuration changes to multiple ports on a switch. If a range of ports must be configured, use the interface range command: 
 
-    Switch(config)# **interface range** *type module*/*first-number* – *last-number*
+    Switch(config)# *interface range* *type module*/*first-number* – *last-number*
 
     Switch(config-if)# shutdown
 
@@ -70,7 +70,7 @@
 
     Ways to configure port security:
 
-    * Static secure MAC addresses - MAC addresses that are manually configured on a port by using the *switchport port-security mac-address <u>targeted-mac-address</u>* interface configuration mode command. MAC addresses configured in this way are stored in the address table and are added to the running configuration on the switch.
+    * Static secure MAC addresses - MAC addresses that are manually configured on a port by using the *switchport port-security mac-address targeted-mac-address* interface configuration mode command. MAC addresses configured in this way are stored in the address table and are added to the running configuration on the switch.
 
     * Dynamic secure MAC addresses - MAC addresses that are dynamically learned and stored only in the address table. MAC addresses configured in this way are removed when the switch restarts or the port goes down.
 
@@ -94,7 +94,7 @@
 
 * In order to make connections between a router and wireless devices faster and easier WPS (Wi-Fi Protected Setup) can be used. 
 
-  * **WPS works only for wireless networks that use a password** that is encrypted with the WPA Personal or WPA2 Personal security protocols. WPS doesn't work on wireless networks that are using the deprecated WEP security, which can be cracked easily by any hacker with a basic set of tools and skills.
+  * *WPS works only for wireless networks that use a password* that is encrypted with the WPA Personal or WPA2 Personal security protocols. WPS doesn't work on wireless networks that are using the deprecated WEP security, which can be cracked easily by any hacker with a basic set of tools and skills.
   * In a standard setup, you can't connect a wireless device to a wireless network unless you know the network name (also named SSID) and its password (also called WPA-PSK key). Let's assume that you want to connect a device, like your smartphone, to your wireless network. On your device, you must first pick the network that you want to connect to and then enter its security password. Without performing both steps, you cannot connect to the WiFi network.
 
 * Setting up a secure home network:
